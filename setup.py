@@ -6,11 +6,10 @@ with open('README.md', 'r', encoding='utf-8') as f:
    
 
 __version__ = "0.0.4"
-REPO_NAME = "MLOps-MongoDb_connector
-"
-PKG_NAME= "MongoDb-Connect"
-AUTHOR_USER_NAME = "Rohit-Shere"
-AUTHOR_EMAIL = "rhtshere@gmail.com"
+REPO_NAME = "mongodbconnectorpkg"
+PKG_NAME= "databaseautomation"
+AUTHOR_USER_NAME = "sunnysavita10"
+AUTHOR_EMAIL = "sunny.savita@ineuron.ai"
 
 setup(
     name=PKG_NAME,
@@ -27,3 +26,6 @@ setup(
     package_dir={"": "src"},
     packages=find_packages(where="src"),
     )
+
+
+
